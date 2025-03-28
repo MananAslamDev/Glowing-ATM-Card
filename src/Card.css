@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #121212;
+  margin: 0;
+}
+
+.card {
+  width: 300px;
+  height: 180px;
+  border-radius: 15px;
+  background: linear-gradient(45deg, #000000, #000000);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  position: relative;
+  color: white;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgb(43, 195, 255);
+}
+
+.cardIcon {
+  width: 120px;
+  background: url("./assets/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+}
+
+.cardChip {
+  margin-top: 60px;
+  width: 80px;
+  height: 40px;
+  background: url("./assets/chip.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;  
+  border-radius: 5px;
+}
+
+.cardNumber {
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.ContentWrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ContentWrapper2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ContentWrapper3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardName {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.cardValidity {
+  font-size: 12px;
+}
