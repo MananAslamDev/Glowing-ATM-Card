@@ -11,8 +11,8 @@ body {
   width: 300px;
   height: 180px;
   border-radius: 15px;
-  background: linear-gradient(45deg, #000000, #000000);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  background: linear-gradient(45deg, #a16c0a, #000000);
+  box-shadow: 0 0 15px rgba(92, 91, 91, 0.8);
   position: relative;
   color: white;
   padding: 20px;
@@ -24,7 +24,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 0 25px rgb(43, 195, 255);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
 }
 
 .cardIcon {
